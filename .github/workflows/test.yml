@@ -8,5 +8,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - uses: Shadowrunner11/actions-node-test@test
+      - uses: Shadowrunner11/actions-node-test@test2
     
