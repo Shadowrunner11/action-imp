@@ -1,0 +1,12 @@
+on:
+  push:
+    branches:
+      - master
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Shadowrunner11/actions-node-test@test
+    
